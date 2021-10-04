@@ -42,6 +42,10 @@ Especially, this implementation includes the 2 major training improvements by [D
 
 ### Code implementation
 The code used here is derived from the "Lunar Lander" tutorial from the Deep Reinforcement Learning Nanodegree, and has been slightly adjusted for being used with the banana environment.
+The code consists of:
+- model.py : This python file contains the model framework defined using pytorch.
+- dqn_agent.py : This python file contains the implementation of dqn agent and its replay mechanism.
+- Navigation.ipynb : This is the jupyter implementation of the file that utilizes the dqn agent to solve the environment.
 
 ### Model architecture
 A range of neural models were tried exploring wide, deep and shallow configurations. Overall, the simpler models performed as well or better than deeper ones and wide models performed worse than narrow ones. All models started with a 37 x 1 input vector from the environment, constructed two or more fully connected hidden layers and ended with a fully connected layer outputing 4 outputs, one for each action. 

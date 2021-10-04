@@ -21,7 +21,8 @@ To achieve our goal, the environment rewards the following:
 > &nbsp;-1 when a blue banana is picked</br>
 > &nbsp;&nbsp;0 for every other event</br>
 
-In this specific case, when the cumulative reward exceeds 13 the training is stopped as the agent is considered to have generalized well to the task.</br>
+### Termination condition
+When the cumulative reward exceeds 13 the training is stopped as the agent is considered to have generalized well to the task.</br>
 </br>
 
 

@@ -66,11 +66,11 @@ The interesting observation from this is that narrow and shallow networks worked
 
 ### Hyper parameters
 
-Replay buffer size 1e5
-Discount factor 0.99 (gamma)
-Soft update factor 0.001 (tau)
-Learning rate 0.0004 (alpha)
-Network update step interval 4
+- Replay buffer size 1e5
+- Discount factor 0.99 (gamma)
+- Soft update factor 0.001 (tau)
+- Learning rate 0.0004 (alpha)
+- Network update step interval 4
 
 ### Results
 ![results](https://github.com/p-Cyan/Udacity_DeepRL_P1_Navigation/blob/main/images/history.JPG)

@@ -21,7 +21,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 </br>
 
-### Reward system
+### Reward function
 To achieve our goal, the environment rewards the following:
 > +1 when a yellow banana is picked</br>
 > &nbsp;-1 when a blue banana is picked</br>
